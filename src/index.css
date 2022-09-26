@@ -5,4 +5,9 @@
 @font-face {
     font-family: 'PixelFont';
     src: local('PixelFont'), url(./fonts/Minecraftia-Regular.ttf) format('truetype');
+    font-display: swap;
+  }
+
+  a {
+    text-decoration: underline;
   }
