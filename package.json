@@ -2,6 +2,7 @@
   "name": "pavnesh-folio",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://pavnesh.github.io/pc-beast-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,8 +16,9 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
-    "post-build": "react-snap"
+    "build": "vite build && react-snap",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +40,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
     "react-snap": "^1.23.0",
     "tailwindcss": "^3.1.8",
