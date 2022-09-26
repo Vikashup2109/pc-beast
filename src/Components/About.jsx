@@ -17,7 +17,7 @@ const About = () => {
               Open-Event
             </a>{" "}
             core team. This project is responsible for running{" "}
-            <a href="eventyay.com">eventyay.com</a>, an open-source event
+            <a href="https://eventyay.com">eventyay.com</a>, an open-source event
             management, hosting and ticketing solution. I am currently a final
             year undergraduate student at{" "}
             <a href="https://iiitkota.ac.in/">
