@@ -4,6 +4,9 @@ import { ViteMinifyPlugin } from "vite-plugin-minify";
 
 // minify the contents of assets
 export default defineConfig({
+  "build": {
+    outDir: "build",
+  },
   plugins: [
     react(),
     ViteMinifyPlugin({

@@ -25,7 +25,7 @@ const About = () => {
             </a>
             . Apart from looking at a lot of code online I also like to read
             fiction. I am a big fan of {"{Khaled Hosseini, Haruki Murakami}"}'s
-            works. I am intrested in Psychology, Robotics, Machine Learning, AI
+            works. I am interested in Psychology, Robotics, Machine Learning, AI
             and a lot of other things. And yeah, I bow to our{" "}
             <a href="https://www.youtube.com/watch?v=BLScQt2e9EE">
               Digital overlords

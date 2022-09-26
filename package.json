@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "post-build": "react-snap"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +39,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.16",
+    "react-snap": "^1.23.0",
     "tailwindcss": "^3.1.8",
     "vite-plugin-minify": "^1.5.2"
   }
